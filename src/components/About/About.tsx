@@ -28,7 +28,7 @@ export default function About() {
           {/* Imagem */}
           <div className="flex-1">
             <img
-              src="/img1.png" // trocar pela imagem correta
+              src="/img1.png" 
               alt="Empresas"
               className="w-full h-80 object-cover rounded-tl-[80px] rounded-br-[80px] shadow-lg"
             />
@@ -53,7 +53,7 @@ export default function About() {
           {/* Imagem */}
           <div className="flex-1">
             <img
-              src="/img2.png" // trocar pela imagem correta
+              src="/img2.png"
               alt="Você"
               className="w-full h-80 object-cover rounded-tr-[80px] rounded-bl-[80px] shadow-lg"
             />
