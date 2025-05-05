@@ -21,9 +21,10 @@ export default function About() {
             <p className="text-[#0d3d66] mb-6">
              Entre em contato e descubra como podemos transformar seu sofá em um lugar ainda mais confortável e saudável! 
             </p>
-            <button className="bg-[#f2a03d] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#d88d2b] transition">
-              Conheça nossos fóruns
-            </button>
+            
+            <a className="bg-[#f2a03d] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#d88d2b] transition" href="https://api.whatsapp.com/send?phone=5514991664052&text=https%3A%2F%2Fcontate.me%2Fbotulimp" >
+              Entre em contato
+            </a>
           </div>
 
           {/* Imagem */}

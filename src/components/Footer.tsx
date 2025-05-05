@@ -48,9 +48,9 @@ export default function Footer() {
           {/* Contato */}
           <div className="space-y-4 text-sm">
             <h4 className="font-semibold text-lg mb-2">Contatos</h4>
-            <p>📍 Av. Joaquim Amaral Amando de Barros <br />988  – Jardim Iolanda</p>
-            <p>📍 Botucatu <br /> São Paulo</p>
             <p>📞(14) 9 9166-4052</p>
+            <p>📍 Av. Joaquim Amaral Amando de Barros <br />988 – Jardim Iolanda</p>
+            <p>📍 Botucatu<br />São Paulo</p>
             <p>✉️ <a href="mailto:botulimp@bol.com.br" className="underline">botulimp@bol.com.br</a></p>
           </div>
 
