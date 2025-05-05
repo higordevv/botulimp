@@ -33,9 +33,7 @@ export default function FeedbackSection() {
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-10 text-[#0d3d66]">O que nossos clientes dizem</h2>
   
-          {isMobile && (
-            <p className="text-sm text-[#0d3d66] mb-6 animate-bounce">Arraste para o lado ➡️</p>
-          )}
+
   
           <Swiper
             modules={[Navigation]}
