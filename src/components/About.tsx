@@ -1,6 +1,3 @@
-import HighlightVideo from "./HighLightVide";
-
-
 export default function About() {
   return (
     <section id="sobre" className="relative min-h-screen flex flex-col justify-center bg-white px-6 py-16 overflow-hidden">
@@ -10,7 +7,6 @@ export default function About() {
 
       {/* Container dos Blocos */}
       <div className="relative z-10 flex flex-col gap-20 max-w-7xl mx-auto">
-          <HighlightVideo />
 
         {/* Bloco Você */}
         <div className="flex flex-col md:flex-row-reverse items-center gap-8">
