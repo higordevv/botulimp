@@ -31,7 +31,7 @@ export default function Navbar() {
                 <li><a href="#inicio" className="hover:text-[#1d9dd9]">Início</a></li>
                 <li><a href="#servicos" className="hover:text-[#1d9dd9]">Serviços</a></li>
                 <li><a href="#sobre" className="hover:text-[#1d9dd9]">Sobre</a></li>
-                <li><a href="#contato" className="hover:text-[#1d9dd9]">Contato</a></li>
+                <li><a href="#footer" className="hover:text-[#1d9dd9]">Contato</a></li>
             </ul>
 
             <ul

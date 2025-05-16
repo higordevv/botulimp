@@ -1,22 +1,22 @@
-import { FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaYoutube, FaFacebook  } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0d3d66] text-white px-6 md:px-20 py-16">
+    <footer className="bg-[#0d3d66] text-white px-6 md:px-20 py-16" id="footer">
       <div className="max-w-7xl mx-auto flex flex-col items-center md:items-start gap-12">
 
         {/* Logo + Social Icons */}
         <div className="flex flex-col md:flex-row justify-between items-center w-full">
           {/* Logo */}
           <div className="text-3xl font-bold">
-            <span className="text-gray-300">Botu</span><span className="text-white">limp</span>
-            <p className="text-sm mt-1 font-light">Higienização e Impermeabilização</p>
+             <img src="/Logo.png" alt="logo" className="max-w-24" />
           </div>
 
           {/* Social Media */}
           <div className="flex gap-6 mt-6 md:mt-0">
-            <a href="#"><FaInstagram size={24} className="hover:text-[#3ab7bf]" /></a>
-            <a href="#"><FaYoutube size={24} className="hover:text-[#3ab7bf]" /></a>
+            <a href="https://www.instagram.com/botulimp/" target="_blank"><FaInstagram size={24} className="hover:text-[#3ab7bf]" /></a>
+            <a href="#" target="_blank"><FaYoutube size={24} className="hover:text-[#3ab7bf]" /></a>
+            <a href="https://www.facebook.com/botulimp/" target="_blank"><FaFacebook size={24} className="hover:text-[#3ab7bf]" /></a>
           </div>
         </div>
 
