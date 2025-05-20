@@ -19,10 +19,8 @@ export default function Footer() {
         {/* Divisão */}
         <div className="w-full border-t border-gray-500" />
 
-        {/* Links + Contato */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 w-full">
 
-          {/* Sobre nós */}
           <div className="space-y-4">
             <h4 className="font-semibold text-lg mb-2">Sobre nós</h4>
             <ul className="space-y-2 text-sm">
@@ -31,7 +29,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Soluções */}
           <div className="space-y-4">
             <h4 className="font-semibold text-lg mb-2">Soluções</h4>
             <ul className="space-y-2 text-sm">
