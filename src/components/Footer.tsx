@@ -1,4 +1,4 @@
-import { FaInstagram, FaYoutube, FaFacebook  } from "react-icons/fa";
+import { FaInstagram, FaFacebook  } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -15,7 +15,6 @@ export default function Footer() {
           {/* Social Media */}
           <div className="flex gap-6 mt-6 md:mt-0">
             <a href="https://www.instagram.com/botulimp/" target="_blank"><FaInstagram size={24} className="hover:text-[#3ab7bf]" /></a>
-            <a href="#" target="_blank"><FaYoutube size={24} className="hover:text-[#3ab7bf]" /></a>
             <a href="https://www.facebook.com/botulimp/" target="_blank"><FaFacebook size={24} className="hover:text-[#3ab7bf]" /></a>
           </div>
         </div>

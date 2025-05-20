@@ -8,16 +8,18 @@ import CuriositiesSection from '../components/CuriositiesSection';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#c7e9f4] text-[#0d3d66] font-sans">
-     <Navbar />
+    <>
+      <header>
+        <Navbar />
+      </header>
       <main className="overflow-x-hidden">
         <Header />
-        <About />
-        <ServicesSection />
-        <FeedbackSection />
-        <CuriositiesSection />
       </main>
+      <About />
+      <ServicesSection />
+      <FeedbackSection />
+      <CuriositiesSection />
       <Footer />
-    </div>
+    </>
   );
 }

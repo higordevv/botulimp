@@ -51,9 +51,9 @@ export default function CuriositiesSection() {
   return (
     <section id="curiosidades" className="bg-white w-full py-20 px-4">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-4xl font-bold text-center text-[#0d3d66] mb-10">
+        <h1 className="text-4xl font-bold text-center text-[#0d3d66] mb-10">
           Curiosidades sobre Higienização
-        </h2>
+        </h1>
 
         <div className="divide-y border border-[#c7e9f4] rounded-lg overflow-hidden">
           {curiosities.map(({ id, title, description, videoUrl }) => (

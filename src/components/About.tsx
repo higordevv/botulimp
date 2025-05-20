@@ -12,7 +12,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row items-center gap-8">
           {/* Texto */}
           <div className="flex-1 text-center md:text-left">
-            <p className="text-sm uppercase tracking-widest text-[#0d3d66] mb-2">Cuidado com quem você ama</p>
+            <h1 className="text-sm uppercase tracking-widest text-[#0d3d66] mb-2">Cuidado com quem você ama</h1>
             <h2 className="text-3xl font-extrabold  text-[#0d3d66] mb-4">Para toda a família</h2>
             <p className="text-[#0d3d66]">
               A higienização profissional dos estofados não é apenas uma questão de estética — ela protege a saúde da sua família, eliminando ácaros, bactérias e fungos que podem causar alergias e problemas respiratórios.
@@ -36,7 +36,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row-reverse items-center gap-8">
           {/* Texto */}
           <div className="flex-1 text-center md:text-left">
-            <p className="text-sm uppercase tracking-widest text-[#0d3d66] mb-2">Soluções para</p>
+            <h1 className="text-sm uppercase tracking-widest text-[#0d3d66] mb-2">Soluções para</h1>
             <h2 className="text-4xl font-extrabold text-[#f2a03d] mb-6">Você</h2>
             <p className="text-[#0d3d66] mb-6">
               Entre em contato e descubra como podemos transformar seu sofá em um lugar ainda mais confortável e saudável!
