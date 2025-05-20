@@ -9,7 +9,7 @@ export default function Navbar() {
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsSticky(window.scrollY > 10); // ativa a sticky após 10px de rolagem
+            setIsSticky(window.scrollY > 10);
         };
 
         window.addEventListener('scroll', handleScroll);

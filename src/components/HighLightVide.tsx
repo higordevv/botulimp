@@ -3,7 +3,6 @@ export default function HighlightVideo() {
     <section className="w-full bg-[#c7e9f4] py-16 px-4 flex justify-center items-center overflow-hidden">
       <div className="w-full max-w-6xl flex flex-col lg:flex-row items-center justify-between gap-10">
         
-        {/* Texto */}
         <div className="flex-1 text-[#0d3d66] text-center lg:text-left">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Você também sente que está perdendo a batalha contra a sujeira?
@@ -18,7 +17,6 @@ export default function HighlightVideo() {
           </p>
         </div>
 
-        {/* Vídeo responsivo */}
         <div className="flex-1 w-full max-w-xs sm:max-w-sm md:max-w-md">
           <div className="relative w-full overflow-hidden rounded-xl shadow-lg" style={{ aspectRatio: '9 / 16' }}>
             <iframe
