@@ -1,4 +1,4 @@
-import { FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -13,6 +13,7 @@ export default function Footer() {
           <div className="flex gap-6 mt-6 md:mt-0">
             <a href="https://www.instagram.com/botulimp/" target="_blank"><FaInstagram size={24} className="hover:text-[#3ab7bf]" /></a>
             <a href="https://www.facebook.com/botulimp/" target="_blank"><FaFacebook size={24} className="hover:text-[#3ab7bf]" /></a>
+            <a href="https://api.whatsapp.com/send?phone=5514991664052&text=https%3A%2F%2Fcontate.me%2Fbotulimp" target="_blank"><FaWhatsapp size={24} className="hover:text-[#3ab7bf]" /></a>
           </div>
         </div>
 
@@ -40,7 +41,7 @@ export default function Footer() {
           <div className="space-y-4 text-sm">
             <h4 className="font-semibold text-lg mb-2">Contatos</h4>
             <p>📞(14) 9 9166-4052</p>
-            <p>📍 Av. Joaquim Amaral Amando de Barros <br />988 – Jardim Iolanda</p>
+            <p>📍 Av. Joaquim Amaral Amando de Barros <br />988 – Jardim Ypê</p>
             <p>📍 Botucatu<br />São Paulo</p>
             <p>✉️ <a href="mailto:botulimp@bol.com.br" className="underline">botulimp@bol.com.br</a></p>
           </div>

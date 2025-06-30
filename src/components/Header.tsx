@@ -7,7 +7,7 @@ export default function Header() {
       <img src="/Logo.png" alt="Botulimp Logo" className="w-48 h-48 mb-6" />
       <h1 className="text-4xl font-bold mb-4">Higienização e Impermeabilização</h1>
       <h2 className="text-lg max-w-2xl">
-        Serviço especializado de limpeza profunda e proteção de estofados, tapetes, colchões e muito mais. Garantimos qualidade, segurança e um ambiente mais saudável para você e sua família.
+        Serviços de Limpeza, Higienização e Impermeabilização de Estofados. Garantimos qualidade, segurança e um ambiente mais saudável para você e sua família.
       </h2>
     </div>
   );

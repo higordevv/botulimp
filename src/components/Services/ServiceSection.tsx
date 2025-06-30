@@ -4,11 +4,11 @@ export default function ServicesSection() {
   const services = [
     {
       title: "Higienização de Estofados",
-      description: "Remoção de sujeiras, ácaros e bactérias com produtos seguros e eficazes.",
+      description: "Remoção de manchas, sujeiras, ácaros e bactérias com produtos seguros e eficazes.",
     },
     {
       title: "Impermeabilização",
-      description: "Proteção contra líquidos e manchas, mantendo seu estofado novo por mais tempo.",
+      description: "Proteção contra a penetração de líquidos indesejaveis, sem alterar as características do seu estofado, mantendo seu estofado novo por mais tempo",
     },
     {
       title: "Limpeza de Tapetes",
